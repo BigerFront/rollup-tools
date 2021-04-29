@@ -1,0 +1,33 @@
+{
+  "name": "rollup-tools",
+  "version": "0.1.0",
+  "description": "Rollup lib or app js",
+  "main": "index.js",
+  "repository": "git@work:BigerFront/rollup-tools.git",
+  "author": "developer <team-developer@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "compile": "rollup -c ci/rollup.config.js",
+    "dev": "rollup -c ci/rollup.config.js"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.16",
+    "@babel/plugin-transform-runtime": "^7.13.15",
+    "@babel/preset-env": "^7.13.15",
+    "@babel/runtime": "^7.13.17",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^18.0.0",
+    "@rollup/plugin-node-resolve": "^11.2.1",
+    "babel-eslint": "^10.1.0",
+    "cross-env": "^7.0.3",
+    "prettier": "^2.2.1",
+    "rollup": "^2.46.0",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-sourcemaps": "^0.6.3"
+  }
+}

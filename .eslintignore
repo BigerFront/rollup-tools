@@ -1,0 +1,10 @@
+/ci/
+/config/
+/dist/
+/dist-zip/
+/node_modules/
+/tests/
+.*
+/node_modules/**/*
+/publish/
+/vendors/
